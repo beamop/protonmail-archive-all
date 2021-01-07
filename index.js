@@ -6,7 +6,7 @@ const ProtonMail = require('protonmail-api');
     password: '<your-password>'
   })
 
-  // Get page count
+  // Get email counts
   const emailCounts = await pm.getEmailCounts()
   const emailsToArchive = emailCounts['folders']['inbox']['total']
   let emailsArchived = 0;
