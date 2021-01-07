@@ -1,0 +1,14 @@
+{
+  "name": "protonmail-archive-all",
+  "version": "1.0.0",
+  "description": "Allows to move all emails from inbox to archives using protonmail-api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marwâne <beamop@pm.me>",
+  "license": "MIT",
+  "dependencies": {
+    "protonmail-api": "^2.1.0"
+  }
+}
